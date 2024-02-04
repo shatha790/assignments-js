@@ -13,7 +13,7 @@
 const marksBMI=marksWeights1 / marksHeight1 ** 2;
 const johnBMI=johnWeights1 / johnHeight1 ** 2; 
 
-const markHigherBMI= marksHeight1>johnHeight1;
+const markHigherBMI= marksWeights1>johnWeights1;
 
 console.log(marksBMI,johnBMI);
 console.log(markHigherBMI);
