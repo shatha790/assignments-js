@@ -7,7 +7,6 @@
 const marksBMI=marksWeights1 / marksHeight1 ** 2;
 const johnBMI=johnWeights1 / johnHeight1 ** 2; 
 
-const markHigherBMI= marksHeight1>johnHeight1;
 
 if (marksWeights1>johnWeights1){
   console.log(`Mark's
